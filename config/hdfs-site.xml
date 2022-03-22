@@ -9,11 +9,11 @@
 
    <property>
        <name>dfs.namenode.name.dir</name>
-       <value>/root/hadoop/data/namenode</value>
+       <value>${hadoop.tmp.dir}/data/namenode</value>
    </property>
 
    <property>
        <name>dfs.datanode.data.dir</name>
-       <value>/root/hadoop/data/datanode</value>
+       <value>${hadoop.tmp.dir}/data/datanode</value>
    </property>
 </configuration>
